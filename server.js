@@ -1,5 +1,5 @@
 var express = require('express');
-var bodyPformarser = require('body-parser');
+var bodyParser = require('body-parser');
 var _ = require('underscore');
 
 var app = express();
