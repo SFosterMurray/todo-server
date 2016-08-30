@@ -16,7 +16,7 @@ if (env === 'production') {
 var db = {};
 
 db.todo = sequelize.import(__dirname + '/models/todo.js');
-db.sequelize = sequelize;
+db.user = sequelize.import(__dirname + '/models/user.js');db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
 console.log("db.js sequelize all set!")
