@@ -1,6 +1,4 @@
-var Sequelize = require('sequelize');db.todo.belongsTo(db.user);
-db.user.hasMany(db.todo);
-
+var Sequelize = require('sequelize');
 var env = process.env.NODE_ENV || 'development';
 var sequelize;
 
@@ -24,7 +22,5 @@ db.Sequelize = Sequelize;
 
 db.todo.belongsTo(db.user);
 db.user.hasMany(db.todo);
-
-console.log("db.js sequelize all set!")
 
 module.exports = db;
