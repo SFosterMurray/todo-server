@@ -6,7 +6,7 @@ var bcrypt = require('bcrypt');
 var middleware = require('./middleware.js')(db);
 
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8000;
 var todos = [];
 var todoNextId = 1;
 
